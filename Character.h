@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 #include <string>
+#include "Item.h"
 
 class Character {
 public:
@@ -11,6 +12,10 @@ public:
     void levelUp();
     string showStats();
 
+    const Item &getItem() const;
+
+    void setItem(const Item &item);
+
 private:
     string name;
     int HP;
@@ -18,7 +23,7 @@ private:
     int atk;
     int exp;
     int level;
-    //Inventory inventory;
+    Item item;
 };
 
 

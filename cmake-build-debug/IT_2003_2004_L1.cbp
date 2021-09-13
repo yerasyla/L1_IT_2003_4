@@ -92,6 +92,12 @@
 		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Game.h">
 			<Option target="IT_2003_2004_L1"/>
 		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Item.cpp">
+			<Option target="IT_2003_2004_L1"/>
+		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Item.h">
+			<Option target="IT_2003_2004_L1"/>
+		</Unit>
 		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/main.cpp">
 			<Option target="IT_2003_2004_L1"/>
 		</Unit>

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Character.cpp" "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/cmake-build-debug/CMakeFiles/IT_2003_2004_L1.dir/Character.cpp.o"
   "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Game.cpp" "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/cmake-build-debug/CMakeFiles/IT_2003_2004_L1.dir/Game.cpp.o"
+  "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/Item.cpp" "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/cmake-build-debug/CMakeFiles/IT_2003_2004_L1.dir/Item.cpp.o"
   "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/main.cpp" "/Users/yerasylamanbek/CLionProjects/IT_2003_2004_L1/cmake-build-debug/CMakeFiles/IT_2003_2004_L1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

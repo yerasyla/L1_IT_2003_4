@@ -24,6 +24,10 @@ private:
     void showStats();
 
     void startGame();
+
+    void exploreMenu();
+
+    void getItem();
 };
 
 

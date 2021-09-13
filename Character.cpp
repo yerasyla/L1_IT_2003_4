@@ -7,6 +7,7 @@ Character::Character() {
     atk = 0;
     exp = 0;
     level = 0;
+
 }
 
 void Character::initialize(string name){
@@ -33,11 +34,20 @@ void Character::levelUp(){
 string Character::showStats(){
 
     string string1= "Name: "+name+"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+
-            "\n"+ "Atk: "+ to_string(atk)+"\n"+"exp: "+to_string(exp)+"\n"+"level: "+to_string(level)+"\n";
+            "\n"+ "Atk: "+ to_string(atk)+"\n"+"exp: "+to_string(exp)+"\n"+"level: "+to_string(level)+"\n"
+            +"Item: "+ item.getName()+"\n";
 
     return string1;
 
 
+}
+
+const Item &Character::getItem() const {
+    return item;
+}
+
+void Character::setItem(const Item &item) {
+    Character::item = item;
 }
 
 

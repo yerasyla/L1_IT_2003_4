@@ -3,12 +3,18 @@
 
 CMakeFiles/IT_2003_2004_L1.dir/Character.cpp.o: \
  ../Character.cpp \
- ../Character.h
+ ../Character.h \
+ ../Item.h
 CMakeFiles/IT_2003_2004_L1.dir/Game.cpp.o: \
  ../Character.h \
  ../Game.cpp \
- ../Game.h
+ ../Game.h \
+ ../Item.h
+CMakeFiles/IT_2003_2004_L1.dir/Item.cpp.o: \
+ ../Item.cpp \
+ ../Item.h
 CMakeFiles/IT_2003_2004_L1.dir/main.cpp.o: \
  ../Character.h \
  ../Game.h \
+ ../Item.h \
  ../main.cpp
