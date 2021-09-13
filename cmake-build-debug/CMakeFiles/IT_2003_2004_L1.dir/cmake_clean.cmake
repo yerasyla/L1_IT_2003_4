@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/IT_2003_2004_L1.dir/Character.cpp.o"
   "CMakeFiles/IT_2003_2004_L1.dir/Game.cpp.o"
   "CMakeFiles/IT_2003_2004_L1.dir/main.cpp.o"
   "IT_2003_2004_L1"
