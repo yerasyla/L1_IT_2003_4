@@ -10,7 +10,7 @@ Character::Character() {
 }
 
 void Character::initialize(string name){
-    name = name;
+    this->name = name;//keyword "this", helps to override variables with same naming;
     HP = 10;
     maxHP = 10;
     atk = 2;
@@ -33,7 +33,7 @@ void Character::levelUp(){
 string Character::showStats(){
 
     string string1= "Name: "+name+"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+
-            "\n"+ "Atk: "+ to_string(atk)+"\n"+"exp: "+to_string(exp)+"\n"+"level: "+to_string(level);
+            "\n"+ "Atk: "+ to_string(atk)+"\n"+"exp: "+to_string(exp)+"\n"+"level: "+to_string(level)+"\n";
 
     return string1;
 

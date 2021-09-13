@@ -15,7 +15,10 @@ void Game::mainMenu() {
     cin>>option;
     switch (option) {
         case 0: playing = false; break;
-        case 1: playMenu();
+        case 1: {
+            startGame();
+            playMenu();
+        };
         default: break;
 
     }
@@ -32,10 +35,23 @@ void Game::playMenu(){
     switch (option) {
         case 0: break;
         case 1: break;
-        case 2:  break; //TODO show stats of the Player
+        case 2: {
+            showStats();
+            break;} //TODO show stats of the Player
         default: break;
 
     }
+}
+
+void Game::startGame(){
+    cout<<"Enter your name: ";
+    string name;
+    cin>>name;
+    character.initialize(name);
+}
+
+void Game::showStats(){
+    cout<<character.showStats();
 }
 
 int Game::getOption() const{

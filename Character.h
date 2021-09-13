@@ -1,6 +1,8 @@
 #ifndef IT_2003_2004_L1_CHARACTER_H
 #define IT_2003_2004_L1_CHARACTER_H
-#include "Game.h"
+#include <iostream>
+using namespace std;
+#include <string>
 
 class Character {
 public:
@@ -16,6 +18,7 @@ private:
     int atk;
     int exp;
     int level;
+    //Inventory inventory;
 };
 
 
