@@ -70,9 +70,11 @@ void Game::exploreMenu(){
                 option = 5;
                 playMenu();
                 break;
-            case 1:
+            case 1: {
+                character.gainExp(10);
                 getItem();
                 break;
+            }
             case 2:
                 break;//TODO setHP to maxHP
             default:
@@ -92,7 +94,7 @@ void Game::startGame(){
 
 void Game::getItem(){
     Item item;
-    character.setItem(*item.createItem("Sword",1,0));
+    character.setItem(*item.createItem("Sword",1));
 }
 
 void Game::showStats(){

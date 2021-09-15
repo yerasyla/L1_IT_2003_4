@@ -1,5 +1,7 @@
 #include "Character.h"
 
+
+
 Character::Character() {
     name = "Player";
     HP = 0;
@@ -20,15 +22,21 @@ void Character::initialize(string name){
 
 };
 
+void Character::gainExp(int expAdd){
+    exp = exp + expAdd;
+    //setExp(getExp()+expAdd);
+    levelUp();
+}
+
 void Character::levelUp(){
     //exp->level->add stats;
-    while (exp >= level*level*10){
+    while (exp >= level*10){
         level++;
         exp=0;
-        HP=HP+5;
+        maxHP = maxHP +5;
+        HP=maxHP;
         atk = atk+1;
     }
-
 }
 
 string Character::showStats(){
@@ -39,9 +47,9 @@ string Character::showStats(){
 
     return string1;
 
-
 }
-
+//In your Inventory you can store only best 3 items (they must be automatically equipped).
+//more atk = better item
 const Item &Character::getItem() const {
     return item;
 }

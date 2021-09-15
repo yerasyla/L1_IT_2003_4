@@ -8,7 +8,7 @@ using namespace std;
 class Item {
 public:
     Item();
-    Item * createItem(string name, int atk, int HP);
+    Item * createItem(string name, int atk);
 
     const string &getName() const;
 

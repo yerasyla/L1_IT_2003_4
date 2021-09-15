@@ -4,10 +4,9 @@
 Item::Item() {
 }
 
-Item * Item::createItem(string name, int atk, int HP){
+Item * Item::createItem(string name, int atk){
     this->name= name;
     this->atk= atk;
-    this->HP= HP;
     return this;
 }
 

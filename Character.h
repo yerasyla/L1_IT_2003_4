@@ -15,6 +15,7 @@ public:
     const Item &getItem() const;
 
     void setItem(const Item &item);
+    void gainExp(int exp);
 
 private:
     string name;
@@ -24,6 +25,8 @@ private:
     int exp;
     int level;
     Item item;
+
+
 };
 
 
